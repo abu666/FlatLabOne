@@ -1,0 +1,280 @@
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #797979;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+	margin: 0px;
+}
+
+p {
+	margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+}
+
+.nav {
+	height: 101px;
+}
+
+.nav1 {
+	width: 1110px;
+	height: 101px;
+	margin: 0 auto;
+	padding: 0px 15px;
+}
+
+.navbar-left {
+	margin-top: 30px;
+	float: left;
+}
+
+.navbar-left a {
+	font-size: 30px;
+	font-weight: 100;
+	line-height: 30px;
+	color: #777;
+}
+
+.navbar-left a span {
+	color: #f25f5b;
+}
+
+.navbar-right {
+	float: right;
+}
+
+.navbar-right ul li {
+	float: left;
+	padding: 30px 0px;
+}
+
+.navbar-right ul li a {
+	color: #999;
+	font-weight: 300;
+	padding: 10px 15px;
+	margin-left: 2px;
+	line-height: 30px;
+}
+
+.input {
+	background: url(../img/search-icon.jpg) no-repeat 0px 0px;
+	display: block;
+	width: 18px;
+	height: 15px;
+	margin-top: 8px;
+}
+
+.navbar-right ul li a:hover {
+	background: #f77b6f;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+.scroll {
+	background: url(../img/banner_bg.jpg) no-repeat 0px 0px;
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.wen1 {
+	color: red;
+	font-size: 35px;
+}
+
+.wen2 {
+	color: #9FA3AC;
+	font-size: 18px;
+}
+
+.wen3 {
+	color: #8C9099;
+	font-size: 16px;
+}
+.header2 {
+	height: 34px;
+	padding: 40px 0px;
+	background: #475268;
+	margin-bottom: 40px;
+}
+
+.header3 {
+	width: 1140px;
+	height: 34px;
+	padding: 0px 15px;
+	margin: 0 auto;
+}
+
+.header3 h1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	font-weight: 400;
+	margin: 0px;
+	width: 200px;
+	float: left;
+}
+
+.header3 p a {
+	color: #F7796E;
+}
+
+.header3 span {
+	color: #FFFFFF;
+}
+.main{
+	width: 1140px;
+	margin: 0 auto;
+}
+.subnav{
+	width: 1140px;
+	height: 48px;
+	margin: 5px 0px 30px 0px;
+}
+.subnav li{
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+.subnav li a{
+	padding: 10px 15px;
+	color: #7D797A;
+	background: #E2E0E1;
+	border-radius:5px;
+}
+.subnav li:hover a{
+	background: #f77b6f;
+	color: #FFFFFF;
+}
+.gallery img{
+	height: 230px;
+	width: 262px;
+}
+.gallery div{
+	float: left;
+	margin: 0px 23px 23px 0px;
+}
+.foot {
+	height: 212px;
+	background: #475268;
+	padding: 100px 0px;
+	margin-top: 50px;
+}
+
+.foot1 {
+	width: 1170px;
+	height: 212px;
+	margin: 0 auto;
+}
+
+.foot2 {
+	width: 262px;
+	height: 212px;
+	float: left;
+	padding: 0px 15px;
+}
+
+.foot3 {
+	width: 458px;
+	height: 60px;
+	float: left;
+	padding: 0px 15px;
+}
+
+.foot4 {
+	width: 262px;
+	height: 162px;
+	float: left;
+	padding: 0px 15px;
+	margin-left: 97px;
+}
+
+.foot2 h1 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0px 20px 0px;
+	color: #FFFFFF;
+}
+
+.foot2 p {
+	margin: 0px 0px 10px 0px;
+	color: #FFFFFF;
+}
+
+.foot2 p a {
+	color: #EA796A;
+}
+
+.foot3 h1 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0px 20px 0px;
+	color: #FFFFFF;
+}
+
+.foot3 span {
+	color: #FFFFFF;
+}
+
+.foot3 a {
+	font-size: 12px;
+	color: #EA796A;
+	filter: alpha(opacity: 30);
+	opacity: 0;
+}
+
+.foot3 a:hover {
+	filter: alpha(opacity: 30);
+	opacity: 1;
+}
+
+.foot4 h1 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0px 0px 20px 0px;
+	color: #FFFFFF;
+}
+
+.foot4 li {
+	background: #505B71;
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+.foot4 li:hover {
+	background: #CC7370;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
