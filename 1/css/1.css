@@ -7,7 +7,9 @@ ul {
 body {
 	margin: 0px;
 	padding: 0px;
-	font-family: "微软雅黑";
+	color: #797979;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
 }
 
 a {
@@ -44,16 +46,10 @@ h6 {
 	float: left;
 }
 
-.navbar-left a {
-	font-size: 30px;
-	font-weight: 100;
-	line-height: 30px;
-	color: #777;
-}
-
-.navbar-left a span {
-	color: #f25f5b;
-}
+/*.navbar-left img{
+	width: 85px;
+	height: 50px;
+}*/
 
 .navbar-right {
 	float: right;
@@ -62,9 +58,11 @@ h6 {
 .navbar-right ul li {
 	float: left;
 	padding: 30px 0px;
+	position: relative;
+	margin-top: 11px;
 }
 
-.navbar-right ul li a {
+.li-a,.feat-a{
 	color: #999;
 	font-weight: 300;
 	padding: 10px 15px;
@@ -79,8 +77,46 @@ h6 {
 	height: 15px;
 	margin-top: 8px;
 }
+.dropdown-menu{
+	width: 158px;
+	height: 68px;
+	border: 1px solid rgba(0,0,0,0.15);
+	font-size: 14px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 1000;
+	background: #FFFFFF;
+	display: none;
+}
+.feat-a:hover .dropdown-menu{
+	display: block;
+}
 
-.navbar-right ul li a:hover {
+.menu-div{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	width: 158px;
+	height: 34px;
+}
+.menu-a{
+	padding: 3px 12px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #999999;
+	line-height: 28px;
+	width: 134px;
+	height: 28px;
+	display: block;
+}
+.menu-a:hover{
+	background: #f77b6f;
+	color: #FFFFFF;
+}
+
+
+.li-a:hover {
 	background: #f77b6f;
 	border-radius: 5px;
 	color: #FFFFFF;
@@ -96,16 +132,19 @@ h6 {
 .wen1 {
 	color: red;
 	font-size: 35px;
+	margin-top: 55px;
 }
 
 .wen2 {
 	color: #9FA3AC;
 	font-size: 18px;
+	margin: 10px 0px;
 }
 
 .wen3 {
 	color: #8C9099;
 	font-size: 16px;
+	margin: 5px 0px;
 }
 
 .scroll div a {
@@ -649,10 +688,3 @@ h6 {
 	background: #CC7370;
 	cursor: pointer;
 }
-.logo1{
-	background: url(../img/477558253699522087.jpg) no-repeat 0px 0px;
-	float: left;
-	width: 50px;
-	height: 50px;
-}
-

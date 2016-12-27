@@ -46,17 +46,6 @@ h6 {
 	float: left;
 }
 
-.navbar-left a {
-	font-size: 30px;
-	font-weight: 100;
-	line-height: 30px;
-	color: #777;
-}
-
-.navbar-left a span {
-	color: #f25f5b;
-}
-
 .navbar-right {
 	float: right;
 }
@@ -64,9 +53,11 @@ h6 {
 .navbar-right ul li {
 	float: left;
 	padding: 30px 0px;
+	position: relative;
+	margin-top: 11px;
 }
 
-.navbar-right ul li a {
+.li-a,.feat-a{
 	color: #999;
 	font-weight: 300;
 	padding: 10px 15px;
@@ -81,8 +72,46 @@ h6 {
 	height: 15px;
 	margin-top: 8px;
 }
+.dropdown-menu{
+	width: 158px;
+	height: 68px;
+	border: 1px solid rgba(0,0,0,0.15);
+	font-size: 14px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	z-index: 1000;
+	background: #FFFFFF;
+	display: none;
+}
+.feat-a:hover .dropdown-menu{
+	display: block;
+}
 
-.navbar-right ul li a:hover {
+.menu-div{
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+	width: 158px;
+	height: 34px;
+}
+.menu-a{
+	padding: 3px 12px;
+	font-size: 14px;
+	font-weight: 300;
+	color: #999999;
+	line-height: 28px;
+	width: 134px;
+	height: 28px;
+	display: block;
+}
+.menu-a:hover{
+	background: #f77b6f;
+	color: #FFFFFF;
+}
+
+
+.li-a:hover {
 	background: #f77b6f;
 	border-radius: 5px;
 	color: #FFFFFF;
